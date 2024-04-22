@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/app.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="true"/>
+    <title>Урок 1</title>
+</head>
+<style>
+
+    button:hover{
+    background: rgba(100, 119, 235, 0.62);
+    }
+    button:active{
+    background: #fff;
+	color:#6477EB;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6477EB;
+  color: #fff;
+  height: 100px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+	font-size: 16px;
+	font-family: helvetica, arial;
+  width: 100px;
+  height: 100px;
+}
+li a:hover:not(.active) {
+    background-color: rgb(255, 255, 255);
+  color: #6477EB;
+}
+.active {
+    background-color: rgba(167, 198, 232, 0.15);
+}
+
+p {
+    font-size: 20px;
+	font-family: helvetica, arial;
+	color: #111;
+}
+</style>
+<body>
+<ul>
+  <li><a href="index.html">Меню</a></li>
+  <li><a class="active" href="less1.html">Урок 1</a></li>
+  <li><a href="less2.html">Урок 2</a></li>
+  <li><a href="less3.html">Урок 3</a></li>
+    <li><a href="less4.html">Урок 4</a></li>
+    <li><a href="less5.html">Урок 5</a></li>
+    <li><a href="less6.html">Урок 6</a></li>
+    <li><a href="less7.html">Урок 7</a></li>
+</ul>
+<h1>История робототехники</h1>
+<p> Сегодня мы начинаем увлекательное путешествие в мир истории робототехники. Робототехника - это не просто наука о создании роботов, это история о том, как человек всегда стремился облегчить свой труд и расширить границы возможного. От древних времен до наших дней, мы увидим, как менялись представления о роботах, как они эволюционировали от простых механизмов до сложных автономных систем. Мы познакомимся с великими умами, которые внесли свой вклад в развитие робототехники, и узнаем, какие вызовы стоят перед нами сегодня. Давайте же начнем наше путешествие и узнаем, как роботы стали неотъемлемой частью нашей жизни!</p>
+<img src="/Сайт для диплома/изображения/история_робототехники.png" width="800" height="700">
+
+<div class="button-container">
+    <button class="button" onclick="window.open('quiz.html');">Презентация к уроку</button>
+    <button class="button" onclick="window.open('/Сайт для диплома/тесты/quiz.html');">Тест</button>
+    <button class="button" onclick="window.open('quiz.html');">Методический материал</button>
+</div>
+</body>
+</html>
+
+
