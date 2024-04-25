@@ -155,7 +155,7 @@ const questions =
 		new Answer("Манипуляционный робот", 1)
 	]),
 
-	new Question("Кем было придумано слово "робот"?", 
+	new Question("Кем было придумано слово робот?", 
 	[
 		new Answer("Йозеф", 0),
 		new Answer("Карел Чапек", 1),
