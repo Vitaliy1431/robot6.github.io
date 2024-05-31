@@ -224,6 +224,7 @@ function Update()
 		//Если это конец, то выводим результат
 		buttonsElem.innerHTML = "";
 		headElem.innerHTML = quiz.results[quiz.result].text;
+		pagesElem.innerHTML = "Правильные ответы: " + quiz.score;
 	}
 }
 
