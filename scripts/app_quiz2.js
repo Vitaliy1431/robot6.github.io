@@ -177,7 +177,7 @@ const questions =
 	[
 		new Answer("Робот пылесос", 0),
 		new Answer("Умная колонка", 0),
-		new Answer("ВЧайник", 1)
+		new Answer("Чайник", 1)
 	]),
 ];
 
