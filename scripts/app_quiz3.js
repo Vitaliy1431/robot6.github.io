@@ -161,11 +161,11 @@ const questions =
 	new Question("Какую иконку в правом меню нужно использовать, чтобы камера переместилась в место где находиться робот, и следила за ним далее?",
 	[
 		new Answer("<img src='scripts/тест3_вариант_ответа1.png' width='50' height='50'>", 0),
-		new Answer("<img src= тест3_вариант_ответа2.png width=50 height=50>", 1),
-	        new Answer("<img src=тест3_вариант_ответа3.png width=50 height=50>", 0),
-		new Answer("<img src=тест3_вариант_ответа4.png width=50 height=50>", 0)
+		new Answer("<img src='scripts/тест3_вариант_ответа2.png' width='50' height='50'>", 1),
+		new Answer("<img src='scripts/тест3_вариант_ответа3.png' width='50' height='50'>", 0),
+		new Answer("<img src='scripts/тест3_вариант_ответа4.png' width='50' height='50'>", 0)
 	]),
-	new Question("Что сделает Омегабот после запуска этой программы?<br/><br/><img src=тест3_задание4.png width=500 height=250>",
+	new Question("Что сделает Омегабот после запуска этой программы?<br/><br/><img src='scripts/тест3_задание4.png' width='500' height='250'>",
 	[
 		new Answer("Проедет вперёд 1 секунду, повернёт, проедет вперёд 1 секунду", 0),
 		new Answer("Будет ехать вперёд бесконечно", 0),
@@ -173,7 +173,7 @@ const questions =
 		new Answer("Проедет вперёд 1 секунду, повернёт, будет ехать вперёд бесконечно", 0)
 	]),
 
-	new Question("Выберите, какой траектории соответствует программа:<br/><br/><img src=тест3_задание5.png width=500 height=250>",
+	new Question("Выберите, какой траектории соответствует программа:<br/><br/><img src='scripts/тест3_задание5.png' width='500' height='250'>",
 	[
 		new Answer("Треугольник", 1),
 		new Answer("Круг", 0),
