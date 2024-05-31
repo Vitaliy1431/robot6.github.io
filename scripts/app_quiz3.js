@@ -160,7 +160,7 @@ const questions =
 	]),
 	new Question("Какую иконку в правом меню нужно использовать, чтобы камера переместилась в место где находиться робот, и следила за ним далее?",
 	[
-		new Answer("<img src=тест3_вариант_ответа1.png width=50 height=50>", 0),
+		new Answer("<img src='тест3_вариант_ответа1.png' width='50' height='50'>", 0),
 		new Answer("<img src= тест3_вариант_ответа2.png width=50 height=50>", 1),
 	        new Answer("<img src=тест3_вариант_ответа3.png width=50 height=50>", 0),
 		new Answer("<img src=тест3_вариант_ответа4.png width=50 height=50>", 0)
