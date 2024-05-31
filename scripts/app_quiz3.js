@@ -143,7 +143,7 @@ const results =
 //Массив с вопросами
 const questions = 
 [
-	new Question("Как приблизить камеру к роботу?", 
+	new Question("Как приблизить камеру к роботу?",
 	[
 		new Answer("Правой кнопкой мыши", 0),
 		new Answer("Колёсиком мыши", 1),
@@ -151,21 +151,21 @@ const questions =
 		new Answer("Никак", 0)
 	]),
 
-	new Question("Если нажать правую кнопку мыши и крутить мышку:", 
+	new Question("Если нажать правую кнопку мыши и крутить мышку:",
 	[
 		new Answer("Робот переместиться по полигону", 0),
 		new Answer("Поменяется ориентация камеры сверху, сбоку", 0),
 		new Answer("Камера повернется", 1),
 		new Answer("Повернётся робот", 0)
 	]),
-	new Question("Какую иконку в правом меню нужно использовать, чтобы камера переместилась в место где находиться робот, и следила за ним далее?", 
+	new Question("Какую иконку в правом меню нужно использовать, чтобы камера переместилась в место где находиться робот, и следила за ним далее?",
 	[
-		new Answer("<img src="тест3_вариант_ответа1.png" width="50" height="50">", 0),
-		new Answer("<img src="тест3_вариант_ответа2.png" width="50" height="50">", 1),
-	        new Answer("<img src="тест3_вариант_ответа3.png" width="50" height="50">", 0),
-		new Answer("<img src="тест3_вариант_ответа4.png" width="50" height="50">", 0)
+		new Answer("<img src=тест3_вариант_ответа1.png width=50 height=50>", 0),
+		new Answer("<img src= тест3_вариант_ответа2.png width=50 height=50>", 1),
+	        new Answer("<img src=тест3_вариант_ответа3.png width=50 height=50>", 0),
+		new Answer("<img src=тест3_вариант_ответа4.png width=50 height=50>", 0)
 	]),
-	new Question("Что сделает Омегабот после запуска этой программы?<br/><br/><img src="тест3_задание4.png" width="500" height="250">", 
+	new Question("Что сделает Омегабот после запуска этой программы?<br/><br/><img src=тест3_задание4.png width=500 height=250>",
 	[
 		new Answer("Проедет вперёд 1 секунду, повернёт, проедет вперёд 1 секунду", 0),
 		new Answer("Будет ехать вперёд бесконечно", 0),
@@ -173,7 +173,7 @@ const questions =
 		new Answer("Проедет вперёд 1 секунду, повернёт, будет ехать вперёд бесконечно", 0)
 	]),
 
-	new Question("Выберите, какой траектории соответствует программа:<br/><br/><img src="тест3_задание5.png" width="500" height="250">", 
+	new Question("Выберите, какой траектории соответствует программа:<br/><br/><img src=тест3_задание5.png width=500 height=250>",
 	[
 		new Answer("Треугольник", 1),
 		new Answer("Круг", 0),
@@ -191,7 +191,7 @@ Update();
 function Update()
 {
 	//Проверяем, есть ли ещё вопросы
-	if(quiz.current < quiz.questions.length) 
+	if(quiz.current < quiz.questions.length)
 	{
 		//Если есть, меняем вопрос в заголовке
 		headElem.innerHTML = quiz.questions[quiz.current].text;
@@ -211,7 +211,7 @@ function Update()
 
 			buttonsElem.appendChild(btn);
 		}
-		
+
 		//Выводим номер текущего вопроса
 		pagesElem.innerHTML = (quiz.current + 1) + " / " + quiz.questions.length;
 
@@ -240,7 +240,7 @@ function Init()
 	}
 }
 
-function Click(index) 
+function Click(index)
 {
 	//Получаем номер правильного ответа
 	let correct = quiz.Click(index);
@@ -262,10 +262,10 @@ function Click(index)
 			btns[correct].className = "button button_correct";
 		}
 
-		if(index != correct) 
+		if(index != correct)
 		{
 			btns[index].className = "button button_wrong";
-		} 
+		}
 	}
 	else
 	{
